@@ -54,6 +54,12 @@ function albumWithSubscription(WrappedComponent) {
     dispatch: PropTypes.func.isRequired,
   };
 
+  WithSubscription.displayName = `WithSubscription(${
+    WrappedComponent.displayName ||
+    WrappedComponent.name ||
+    'Component'
+  })`;
+
   function mapStateToProps(store) {
     return {
       user: store.user,
