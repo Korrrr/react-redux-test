@@ -5,8 +5,6 @@ import { Toolbar, ToolbarTitle } from 'material-ui/Toolbar';
 import { List, ListItem } from 'material-ui/List';
 import NavigateNext from 'material-ui/svg-icons/image/navigate-next';
 
-import makePhotoURL from '../../helpers/makePhotoURL';
-
 
 class Albums extends Component {
   renderAlbums() {

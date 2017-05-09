@@ -8,6 +8,7 @@ const photos = (state = [], action) => {
           id: action.payload.id,
           name: action.payload.name,
           albumName: action.payload.album.name,
+          imageURL: action.payload.imageURL,
         },
       ];
     default:

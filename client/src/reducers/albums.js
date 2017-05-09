@@ -9,10 +9,6 @@ const albums = (state = [], action) => {
           name: action.payload.name,
           count: action.payload.count,
           imageURL: action.payload.imageURL,
-          // coverPhoto: {
-          //   id: action.payload.cover_photo.id,
-          //   createdTime: action.payload.cover_photo.created_time,
-          // },
         },
       ];
     default:
